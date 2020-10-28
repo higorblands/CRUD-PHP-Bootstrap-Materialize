@@ -1,5 +1,5 @@
 <?php
-    require('db/DAOUsuario.php');
+    require('/db/DAOUsuario.php');
 
       if (isset($_GET['procura']) && $_GET['procura'] != ''){
         $CONN = conexao();

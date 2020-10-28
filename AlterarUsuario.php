@@ -1,5 +1,5 @@
 <?php  
-require('db/db.php');
+require('/db/db.php');
 $CONN = conexao();
 
 $sql = "USE agenda;";
